@@ -58,7 +58,6 @@ const About = () => {
         </div>
 
       </div>
-      <NewsletterBox/>
     </div>
   )
 }
