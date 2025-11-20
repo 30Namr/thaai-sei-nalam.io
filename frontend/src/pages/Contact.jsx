@@ -13,8 +13,10 @@ const Contact = () => {
         <img src={assets.contact_img} alt="" className='w-full md:max-w-[480px]' />
         <div className="flex flex-col justify-center items-start gap-6">
           <p className='font-semibold text-xl text-gray-600'>Our Store</p>
-          <p className='text-gray-500'>New Agripada , Santacruz - East , <br/>Mumbai - 400055 , MH , India</p>
-          <p className='text-gray-500'>Tel : (91) 88987 22619 <br/> Email : </p>
+          
+          <p className='text-gray-500'> 106, Gingee Road, Opposite Big World, <br/>Tindivanam 604001, Tamil Nadu, India</p>
+          <p className='text-gray-500'>Tel : (91) 88987 22619 <br/> Email : thaaiseinalam@gmail.com </p>
+          <p><a href="https://www.instagram.com/thaaiseinalam?igsh=YW5pMWpoaDhsZW01"/> Instagram </p>
           <p className='font-semibold text-xl text-gray-600'></p>
            <p className='text-gray-500'>Contact us for more details.</p>
           {/* <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all 
