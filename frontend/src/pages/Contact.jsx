@@ -1,6 +1,8 @@
 import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
+import { FaInstagram } from "react-icons/fa";
+
 import NewsletterBox from '../components/NewsletterBox'
 
 const Contact = () => {
@@ -12,11 +14,15 @@ const Contact = () => {
       <div className="my-10 flex flex-col justify-center md:flex-row gap-10 mb-28">
         <img src={assets.contact_img} alt="" className='w-full md:max-w-[480px]' />
         <div className="flex flex-col justify-center items-start gap-6">
-          <p className='font-semibold text-xl text-gray-600'>Our Store</p>
-          
+          <p className='font-semibold text-xl text-gray-600'>Our Store</p>          
           <p className='text-gray-500'> 106, Gingee Road, Opposite Big World, <br/>Tindivanam 604001, Tamil Nadu, India</p>
           <p className='text-gray-500'>Tel : (91) 88987 22619 <br/> Email : thaaiseinalam@gmail.com </p>
-          <p><a href="https://www.instagram.com/thaaiseinalam?igsh=YW5pMWpoaDhsZW01"/> Instagram </p>
+          <p className='flex items-center gap-2 text-gray-700'>
+            <a href="https://www.instagram.com/thaaiseinalam?igsh=YW5pMWpoaDhsZW01" target="_blank" rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:text-pink-600"> <FaInstagram size={24} />
+                Instagram
+            </a>
+          </p>
           <p className='font-semibold text-xl text-gray-600'></p>
            <p className='text-gray-500'>Contact us for more details.</p>
           {/* <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all 
