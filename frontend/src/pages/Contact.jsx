@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
 import { FaInstagram } from "react-icons/fa";
-
+import { FaArrowRight } from "react-icons/fa6";
 import NewsletterBox from '../components/NewsletterBox'
 
 const Contact = () => {
@@ -17,12 +17,24 @@ const Contact = () => {
           <p className='font-semibold text-xl text-gray-600'>Our Store</p>          
           <p className='text-gray-500'> 106, Gingee Road, Opposite Big World, <br/>Tindivanam 604001, Tamil Nadu, India</p>
           <p className='text-gray-500'>Tel : (91) 88987 22619 <br/> Email : thaaiseinalam@gmail.com </p>
-          <p className='flex items-center gap-2 text-gray-700'>
-            <a href="https://www.instagram.com/thaaiseinalam?igsh=YW5pMWpoaDhsZW01" target="_blank" rel="noopener noreferrer"
-              className="flex items-center gap-2 hover:text-pink-600"> <FaInstagram size={24} />
-                Instagram
-            </a>
-          </p>
+         <p className="flex items-center gap-2 group cursor-pointer text-gray-700">
+  <a 
+    href="https://www.instagram.com/thaaiseinalam?igsh=YW5pMWpoaDhsZW01"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 hover:text-pink-600 transition-all"
+  >
+    <FaInstagram className="text-pink-600" size={22} />
+
+    Instagram
+
+    <FaArrowRight 
+      className="opacity-0 group-hover:opacity-100 translate-x-0 group-hover:translate-x-1 transition-all duration-300"
+      size={16}
+    />
+  </a>
+</p>
+
           <p className='font-semibold text-xl text-gray-600'></p>
            <p className='text-gray-500'>Contact us for more details.</p>
           {/* <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all 
