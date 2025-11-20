@@ -2,6 +2,7 @@ import React from 'react'
 import Title from '../components/Title'
 import { assets } from '../assets/assets'
 import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import NewsletterBox from '../components/NewsletterBox'
 
