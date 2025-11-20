@@ -35,6 +35,19 @@ const Contact = () => {
     />
   </a>
 </p>
+          {/* instagram*/}
+          <p className="flex items-center gap-2 group cursor-pointer text-gray-700">
+  <a 
+    href="https://api.whatsapp.com/send?phone=918898722619&text=Hi%20I%20want%20to%20know%20more%20details"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 hover:text-green-600 transition-all"
+  >
+    <FaWhatsapp className="text-green-600" size={22} />
+    WhatsApp
+  </a>
+</p>
+
           {/* Instgram and whatsapp icon integration link correctly  start */}
            <p className='text-gray-500'>Contact us for more details.</p>
           {/* <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all 
