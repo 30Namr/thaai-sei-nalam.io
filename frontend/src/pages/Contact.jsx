@@ -17,6 +17,7 @@ const Contact = () => {
           <p className='font-semibold text-xl text-gray-600'>Our Store</p>          
           <p className='text-gray-500'> 106, Gingee Road, Opposite Big World, <br/>Tindivanam 604001, Tamil Nadu, India</p>
           <p className='text-gray-500'>Tel : (91) 88987 22619 <br/> Email : thaaiseinalam@gmail.com </p>
+          {/* Instgram and whatsapp icon integration link correctly  start */}
          <p className="flex items-center gap-2 group cursor-pointer text-gray-700">
   <a 
     href="https://www.instagram.com/thaaiseinalam?igsh=YW5pMWpoaDhsZW01"
@@ -34,8 +35,7 @@ const Contact = () => {
     />
   </a>
 </p>
-
-          <p className='font-semibold text-xl text-gray-600'></p>
+          {/* Instgram and whatsapp icon integration link correctly  start */}
            <p className='text-gray-500'>Contact us for more details.</p>
           {/* <button className='border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all 
           duration-500'></button> */}
