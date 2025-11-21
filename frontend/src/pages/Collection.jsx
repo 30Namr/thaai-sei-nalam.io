@@ -84,16 +84,11 @@ const Collection = () => {
             <p className='flex gap-2'>
               <input type="checkbox" className='w-3' value={'Women'} onChange={toggleCategory} />Women
             </p>
-
             <p className='flex gap-2'>
               <input type="checkbox" className='w-3' value={'Kids'} onChange={toggleCategory} />Baby
             </p>
           </div>
-        </div>
-
-
-        {/**SubCategory Filter */}
-     
+        </div>     
         </div>
       </div>
 
